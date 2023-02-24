@@ -34,13 +34,6 @@ const itemsMock = [
   },
 ];
 
-/*
-- Para cada item da lista, exibe um card do Rick Sanchez
-- Pegar a informação de cada item e enviar para o componente <Card />
-- A informação recebida no card deve ser exibida no console.log
-- Pegar cada parte da informação recebida e colocá-la nos elementos de HTML
-*/
-
 // Sintaxe de concatenação de variáveis dentro do JSX, chaves: {}
 // { VARIAVEL }
 // Concatenar = unir de forma lógica
@@ -73,8 +66,6 @@ function ReadAll() {
   useEffect(function () {
     realizarRequisicao();
   }, []);
-
-  //   console.log(67, items);
 
   return (
     <div className="ReadAll">
